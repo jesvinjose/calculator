@@ -1,0 +1,58 @@
+/* Calculator.css */
+
+.calc {
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    margin-left: 400px;
+    padding-top: 40px;
+  }
+  
+  #screen {
+    margin-left: 30px;
+    width: 330px;
+    height: 40px;
+    pointer-events: none;
+    margin-bottom: 40px;
+  }
+  
+  .row {
+    padding-left: 6px;
+  }
+  
+  /* Styling for the Clear button */
+  .clrbtn {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #fff; /* Add border style */
+  }
+  
+  .additional-btn{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #fff; /* Add border style */
+  
+  }
+  
+  /* Styling for the numeric buttons */
+  .num-btn {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #fff; /* Add border style */
+  }
+  
+  /* Styling for the operator buttons */
+  .operator-btn {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    /* Add additional styles for operator buttons */
+    border: 1px solid #fff; /* Add border style */
+  }
